@@ -1,0 +1,301 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #251b1e;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    color: #fff;
+}
+
+.landing {
+    height: 100%;
+    width: 100%;
+    background-image: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.landing-container {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.landing .heading {
+    text-align: center;
+}
+
+.landing .heading .brand {
+    font-family: 'Caveat Brush', cursive;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 0.8;
+    margin: 0;
+    padding: 20px 0 10px 0;
+}
+
+.landing .tagline {
+    text-align: center;
+    padding: 30px 0 90px 0;
+}
+
+.landing .tagline h2 {
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+.landing .login {
+    text-align: center;
+}
+
+.landing .login a {
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    padding: 15px 60px;
+    background-color: #2ebd59;
+    border-radius: 30px;
+}
+
+.landing .login a:hover {
+    background-color: #28AD50;
+}
+
+.welcome-container {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.welcome {
+    text-align: center;
+}
+
+.welcome .user {
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+
+.welcome .message {
+    font-weight: 400;
+    margin: 0;
+    padding: 20px 0 0 0;
+}
+
+.welcome .countdown {
+    font-weight: 900;
+    margin: 0;
+    padding: 20px 0 0 0;
+}
+
+.quiz-container {
+    display: none;
+    float: left;
+}
+
+.quiz {
+    text-align: center;
+}
+
+.quiz .tracker {
+    text-align: center;
+    margin: 20px 0 50px 0;
+}
+
+.quiz .tracker .score,
+.quiz .tracker .counter {
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.quiz .question {
+    position: relative;
+}
+
+.quiz .question .track {
+    position: absolute;
+    top: auto;
+    left: 0;
+    right: 0;
+    font-weight: 900;
+    color: #928263;
+    text-transform: uppercase;
+    line-height: 0.9;
+    margin: auto;
+    padding: 30px 0 10px 0;
+}
+
+.quiz .question .playlist {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-weight: 200;
+    color: #c5b6bb;
+    margin: auto;
+    padding: 0;
+}
+
+.quiz .answers {
+    width: 100%;
+    max-width: 800px;
+    margin: 50px auto 0 auto;
+}
+
+.quiz .answers .answer {
+    font-weight: 700;
+    padding: 20px 30px;
+    margin: 20px 0;
+    border: 2px solid #fff;
+    display: block;
+}
+
+.quiz .answers .answer:hover {
+    color: #fff;
+    border-color: #928263;
+    background-color: #928263;
+    cursor: pointer;
+}
+
+.quiz .answers .answer.correct,
+.quiz .answers .correct,
+.quiz .answers .answer.correct:hover,
+.quiz .answers .correct:hover {
+    border-color: #679281;
+    background-color: #679281;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper {
+    width: 90%;
+    margin: auto;
+}
+
+@media all and (max-width: 1024px) {
+    .landing .heading .brand {
+        font-size: 10em;
+    }
+    .landing .tagline h2 {
+        font-size: 2.2em;
+    }
+    .landing .login a {
+        font-size: 2em;
+    }
+    .welcome .user {
+        font-size: 4em;
+    }
+    .welcome .message {
+        font-size: 2.4em;
+    }
+    .welcome .countdown {
+        font-size: 5em;
+    }
+    .quiz .tracker .score,
+    .quiz .tracker .counter {
+        font-size: 2em;
+    }
+    .quiz .question .track {
+        font-size: 5em;
+    }
+    .quiz .question .playlist {
+        font-size: 1.8em;
+    }
+    .quiz .answers .answer {
+        font-size: 2.4em;
+    }
+}
+
+@media all and (min-width: 1025px) and (max-width: 1440px) {
+    .landing .heading .brand {
+        font-size: 10em;
+    }
+    .landing .tagline h2 {
+        font-size: 2.4em;
+    }
+    .landing .login a {
+        font-size: 2em;
+    }
+    .welcome .user {
+        font-size: 4.5em;
+    }
+    .welcome .message {
+        font-size: 2em;
+    }
+    .welcome .countdown {
+        font-size: 6em;
+    }
+    .quiz .tracker .score,
+    .quiz .tracker .counter {
+        font-size: 1.4em;
+    }
+    .quiz .question .track {
+        font-size: 4em;
+    }
+    .quiz .question .playlist {
+        font-size: 1.8em;
+    }
+    .quiz .answers .answer {
+        font-size: 1.6em;
+    }
+}
+
+@media all and (min-width: 1441px) {
+    .landing .heading .brand {
+        font-size: 12em;
+    }
+    .landing .tagline h2 {
+        font-size: 2.4em;
+    }
+    .landing .login a {
+        font-size: 2em;
+    }
+    .welcome .user {
+        font-size: 5em;
+    }
+    .welcome .message {
+        font-size: 2.4em;
+    }
+    .welcome .countdown {
+        font-size: 6em;
+    }
+    .quiz .tracker .score,
+    .quiz .tracker .counter {
+        font-size: 2em;
+    }
+    .quiz .question .track {
+        font-size: 5em;
+    }
+    .quiz .question .playlist {
+        font-size: 1.8em;
+    }
+    .quiz .answers .answer {
+        font-size: 2em;
+    }
+}
