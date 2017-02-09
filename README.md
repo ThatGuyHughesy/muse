@@ -19,6 +19,6 @@ Go to [My Applications on Spotify Developer](https://developer.spotify.com/my-ap
 
 Once you have created your app, replace the `client_id`, `redirect_uri` and `client_secret` in `config.js`and run:
 
-    $ node app.js
+    $ node server.js
 
 Then, open `http://localhost:3000` in a browser.
