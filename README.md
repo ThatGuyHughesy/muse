@@ -22,3 +22,25 @@ Once you have created your app, replace the `client_id`, `redirect_uri` and `cli
     $ node server.js
 
 Then, open `http://localhost:3000` in a browser.
+
+## How It Works
+
+The game is straighforward.  
+You're shown the title of a song and the playlist it belongs to.  
+You then must choose the correct artist from 4 possible answers.
+
+Some screenshots:
+
+**Landing Page**
+![Landing Page](./screenshots/screenshot1.png "Landing Page")
+
+**Welcome Page**
+![Welcome Page](./screenshots/screenshot2.png "Welcome Page")
+
+**Question**  
+The song title and 4 possible artists
+![Question Page](./screenshots/screenshot3.png "Question Page")
+
+**Answer**  
+The correct answer is highlighted in green
+![Answer Page](./screenshots/screenshot4.png "Answer Page")
